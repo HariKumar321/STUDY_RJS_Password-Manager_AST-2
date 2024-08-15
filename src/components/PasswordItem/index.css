@@ -1,0 +1,67 @@
+* {
+  font-family: 'Roboto';
+}
+
+.password-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid white;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .password-card {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .password-card {
+    max-height: 120px;
+    max-width: 230px;
+  }
+}
+
+.first-char {
+  background-color: #f59e0b;
+  border-radius: 100px;
+  height: 40px;
+  width: 60px;
+  padding: 10px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  align-self: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.data {
+  color: white;
+  font-size: 16px;
+  width: 100%;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.star-img {
+  width: 80px;
+}
+
+.delete {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
